@@ -1,0 +1,23 @@
+{
+  "name": "note-taker",
+  "version": "1.0.0",
+  "description": "note taker",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mmoghal/note-taker.git"
+  },
+  "keywords": [
+    "note",
+    "taker"
+  ],
+  "author": "mmoghal",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mmoghal/note-taker/issues"
+  },
+  "homepage": "https://github.com/mmoghal/note-taker#readme"
+}
