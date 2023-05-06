@@ -50,3 +50,36 @@ function createNewNote(body, notesArray) {
     );
     return newNote;
 }
+
+app.post('/api/notes', (req, res) => {
+    const newNote = createNewNote(req.body, allnotes);
+    res.json(newNote);
+});
+
+// Function to delete note
+function deletenote(id, notesArray) {
+    for (let i = 0; i < notesArray.length; i++) {
+        let note = notesArray[i];
+
+        if (note.id == id) {
+            notesArray.splice(i, 1);
+            fs.writeFileSync(
+                path.join(__dirname, './db/db.json'),
+                JSON.stringify(notesArray, null, 2)
+            );
+
+            break;
+        }
+    }
+}
+
+// Code to delete a note
+app.delete('/api/notes/:id', (req, res) => {
+    deletenote(req.params.id, allnotes);
+    res.json(true);
+});
+
+// Start the server
+app.listen(PORT, () => {
+    console.log(`API server now on port ${PORT}!`);
+});
