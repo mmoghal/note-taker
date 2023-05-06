@@ -4,7 +4,7 @@ const fs = require('fs');
 const app = express();
 const PORT = process.env.PORT || 3001;
 
-const notes = require('./db/db.json');
+const allnotes = require('./db/db.json');
 
 
 // Set up Express to handle data parsing
@@ -15,7 +15,7 @@ app.use(express.static('public'));
 // API routes
 
 app.get('/api/notes', (req, res) => {
-    res.json(notes.slice(1));
+    res.json(allnotes.slice(1));
 });
 
 app.get('/', (req, res) => {
@@ -29,3 +29,24 @@ app.get('/notes', (req, res) => {
 app.get('*', (req, res) => {
     res.sendFile(path.join(__dirname, './public/index.html'));
 });
+
+
+// Code to save a new
+function createNewNote(body, notesArray) {
+    const newNote = body;
+    if (!Array.isArray(notesArray))
+        notesArray = [];
+    
+    if (notesArray.length === 0)
+        notesArray.push(0);
+
+    body.id = notesArray[0];
+    notesArray[0]++;
+
+    notesArray.push(newNote);
+    fs.writeFileSync(
+        path.join(__dirname, './db/db.json'),
+        JSON.stringify(notesArray, null, 2)
+    );
+    return newNote;
+}
