@@ -49,16 +49,16 @@ To use the Note Taker application, follow these steps:
 
 7.  To delete an existing note, click on the red trashcan icon next to its title in the left-hand column
 
-## Application Image
+# Application Image
 
 ![alt Image of the application](https://github.com/mmoghal/note-taker/blob/main/public/assets/images/note1.png)
 
-## Live Demonstration of Application Functionality
+# Live Demonstration of Application Functionality
 
 To see the application in action, check out this 
 
 
-## Sample Note Created with the Application
+# Sample Note Created with the Application
 
 ![alt Image of the application](https://github.com/mmoghal/note-taker/blob/main/public/assets/images/note2.png)
 
