@@ -45,20 +45,19 @@ To use the Note Taker application, follow these steps:
 
 ## Application Images
 
-![alt Image of the application](https://github.com/mmoghal/note-taker/blob/public/main/assets/images/Shape.test.js.png)
+![alt Image of the application](https://github.com/mmoghal/note-taker/blob/main/public/assets/images/Shape.test.js.png)
 
 
-![alt Image of the application](https://github.com/mmoghal/note-taker/blob/public/main/assets/images/circle.svg.png)
+![alt Image of the application](https://github.com/mmoghal/note-taker/blob/main/public/assets/images/circle.svg.png)
 
 ## Live Demonstration of Application Functionality
 
 To see the application in action, check out this 
-https://drive.google.com/file/d/1uvBw25WFhREOWwK2lHkmcScqDdG2alzk/view
 
 
 ## Sample Note Created with the Application
 
-![alt Image of the application](https://github.com/mmoghal/note-taker/blob/public/main/assets/images/cir.png)
+![alt Image of the application](https://github.com/mmoghal/note-taker/blob/main/public/assets/images/cir.png)
 
 
 # Contributing
