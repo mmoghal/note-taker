@@ -55,7 +55,7 @@ To use the Note Taker application, follow these steps:
 
 # Deployed Application
 
-To see the application in action, check out this 
+To see the application in action, check out this https://sleepy-hamlet-57858.herokuapp.com/
 
 
 # Sample Note Created with the Application
