@@ -10,11 +10,11 @@ The Note Taker application is a simple web-based note-taking tool designed to he
 
   - [Usage](#usage)
 
-  - [Application Image](#Application Image)
+  - [ApplicationImage](#Application Image)
 
-  - [Live Demonstration of Application Functionality](#Live Demonstration of Application Functionality)
+  - [Deployedapplication](#Deployed Application link)
 
-  - [Sample Note Created with the Application](#Sample Note Created with the Application)
+  - [SampleNoteCreatedwiththeApplication](#Sample Note Created with the Application)
 
   - [Contributing](#contributing)
 
@@ -53,7 +53,7 @@ To use the Note Taker application, follow these steps:
 
 ![alt Image of the application](https://github.com/mmoghal/note-taker/blob/main/public/assets/images/note1.png)
 
-# Live Demonstration of Application Functionality
+# Deployed Application
 
 To see the application in action, check out this 
 
