@@ -51,16 +51,16 @@ To use the Note Taker application, follow these steps:
 
 # Application Image
 
-![alt Image of the application](https://github.com/mmoghal/note-taker/blob/main/public/assets/images/note1.png)
+![alt AplicationImage](https://github.com/mmoghal/note-taker/blob/main/public/assets/images/note1.png)
 
 # Deployed Application
 
-To see the application in action, check out this https://sleepy-hamlet-57858.herokuapp.com/
+![Deployedapplication](To see the application in action, check out this https://sleepy-hamlet-57858.herokuapp.com/)
 
 
-# Sample Note Created with the Application
+# Sample Note Create with the Application
 
-![alt Image of the application](https://github.com/mmoghal/note-taker/blob/main/public/assets/images/note2.png)
+![alt SampleNoteCreatedwiththeApplication](https://github.com/mmoghal/note-taker/blob/main/public/assets/images/note2.png)
 
 
 # Contributing
