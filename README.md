@@ -10,12 +10,6 @@ The Note Taker application is a simple web-based note-taking tool designed to he
 
   - [Usage](#usage)
 
-  - [ApplicationImage](#Application Image)
-
-  - [Deployedapplication](#Deployed Application link)
-
-  - [SampleNoteCreatedwiththeApplication](#Sample Note Created with the Application)
-
   - [Contributing](#contributing)
 
   - [License](#license)
@@ -55,7 +49,7 @@ To use the Note Taker application, follow these steps:
 
 # Deployed Application
 
-![Deployedapplication](To see the application in action, check out this https://sleepy-hamlet-57858.herokuapp.com/)
+To see the application in action, check out this https://sleepy-hamlet-57858.herokuapp.com/
 
 
 # Sample Note Create with the Application
